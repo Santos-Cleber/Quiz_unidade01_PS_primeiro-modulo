@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Projeto de Software - Unidade 1 | Anhanguera</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Cabeçalho -->
+      <div class="header">
+        <h1>📚 Quiz - Projeto de Software</h1>
+        <p>Unidade 1: Introdução, Ciclo de Vida e Arquitetura de Software</p>
+        <p style="font-size: 14px; margin-top: 10px; opacity: 0.8">
+          Faculdade Anhanguera
+        </p>
+      </div>
+
+      <!-- Barra de Progresso -->
+      <div class="progress-container">
+        <div class="progress-info">
+          <span
+            >Questão <span id="current-question">1</span> de
+            <span id="total-questions">50</span></span
+          >
+          <span>Bloco <span id="current-block">1</span> de 5</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+      </div>
+
+      <!-- Container da Questão -->
+      <div class="question-container" id="question-container">
+        <!-- Questões serão inseridas aqui pelo JavaScript -->
+      </div>
+
+      <!-- Tela de Resultado do Bloco -->
+      <div class="block-result-screen" id="block-result-screen">
+        <!-- Resultado do bloco será inserido aqui -->
+      </div>
+
+      <!-- Tela de Resultado Final -->
+      <div class="result-screen" id="result-screen">
+        <!-- Resultado final será inserido aqui -->
+      </div>
+    </div>
+
+    <script src="js.js"></script>
+  </body>
+</html>
